@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Noto+Sans:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Обратная связь</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__row">
+                <a href="./index.html" class="nav__logo"><img class="header__img" src="./img/logo.png" alt="Герб"></a>
+                <div class="nav__list-holder">
+                    <ul class="nav-list">
+                        <li class="nav__item">
+                            <a href="./page2.html" class="nav-link">История города</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./page3.html" class="nav-link">Инфраструктура</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./page4.html" class="nav-link">Культура<br>Искусство</a>
+                        </li>     
+                    </ul>
+                </div>
+                <div class="nav-feedback">
+                        <a href="./page5.html" class="nav_feedback"><img class="img__feedback"src="./img/feedback.png" alt="Обратная связь"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="feedback">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-header__title">Форма обратной связи</h2>
+            </div>
+            <div class="contacts-block">
+                <form method="post" name="form">
+                    <!-- Поле ввода имени -->
+                    <input name="name" type="text" placeholder="Ваше имя" title="Введите ваше имя" />
+                    <br>
+                    <!-- Поле ввода почты  -->
+                    <input name="email" type="text" placeholder="Ваша почта" title="Введите вашу фамилию" />
+                    <br>
+                    <!-- Поле ввода для темы сообщения -->
+                    <input size="30" name="header" type="text" placeholder="Тема" title="Тема вашего обращения" />
+                    <br>
+                    <!-- Текстовое поле для самого сообщения -->
+                    <textarea cols="32" name="message" rows="5" title="Текст вашего обращения"> Введите ваше сообщение
+                    </textarea>
+                    <br>
+                    <!-- Кнопка с надписью «Отправить», которая запускает обработчик формы -->
+                    <button class="btn">Отправить</button>
+                </form>
+              </div>
+            </div>
+        </div>
+    </header>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__column">
+                <div class="footer__copyright">
+                    <p>© by elizdem</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
