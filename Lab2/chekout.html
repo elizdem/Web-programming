@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/chekout.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Check out</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__row-top">
+                <div class="nav__logo">
+                    <a href=""><img src="./img/header/logo.png" alt="logo"></a>
+                </div>
+
+                <form action="" class="search__form">
+                    <select name="Browse" id="" class="search_list">
+                        <option value="">Browse</option>
+                        <option value="">Also browse</option>
+                        <option value="">And also also browse</option>
+                    </select>
+                    <input type="text" class="search_field" placeholder="Search for Item...">
+                    <button class="search__btn">
+                        <img src="./img/header/search_icon.svg" alt="search">
+                    </button>
+                </form>
+                <div class="nav__actions">
+                    <div class="nav__cart">
+                        <a href="#"><img src="./img/header/nav_Cart.svg" alt=""></a>
+                    </div>
+    
+                    <div class="nav__button"> 
+                        <select name="My Account" id="" class="search_list">
+                            <option value="">My Account</option>
+                            <option value="">Also browse</option>
+                            <option value="">And also also browse</option>
+                        </select>
+                    </div>
+                </div>   
+            </div>
+
+            <hr class="nav__line">
+            
+            <div class="nav__row-bottom">
+                <div class="nav__list-holder">
+                    <ul class="nav-list">
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">man</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">women</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">kids</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">accoseries</a>
+                        </li>     
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">hot deal</a>
+                        </li>      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="header__chekout-page">
+            <div class="container">
+                <div class="header-wrapper">
+                    <h1 class="header__text">new arrivals</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#">men</a></li>
+                        <li><a href="chekout.html" class="chk__active">new arrivals</a></li>
+                      </ul>
+                </div>
+            </div>
+        </header>
+        
+        <section class="accordion-section">
+            <div class="container">
+                <div class="accordion">
+                    <div class="acc__item">
+                        <div class="acc__label"> 01. shiping adress</div>
+                        <div class="acc__content">
+                            <div class="acc__content__leftpart">
+                                <h4 class="acc__header">check as a guest a register</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+                                <div class="radio__btn">
+                                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                                    <label class="input-label" for="contactChoice1">Checkout as guest</label>
+                                    <br>
+                                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                                    <label class="input-label" for="contactChoice2">Register</label>
+                                </div>
+                                <h4 class="acc__header">register and save time!</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+    
+                                <p class="acc__text">>>Fast and easy checkout</p>
+                                <p class="acc__text">>>Easy access to your order history and status</p>
+    
+                                <div class="acc__btn-wrapper">
+                                    <a href="#" class="acc__btn">continue</a>
+                                </div>
+                            </div>
+    
+                            <div class="acc__content__rightpart">
+                                <h4 class="acc__header">already registered?</h4>
+                                <p class="acc__text">Please log in below</p>
+    
+                                <form class="acc-form">
+                                    <label class="form-label" for="name">email adress <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="name">
+                                    <br>
+                                    <label class="form-label" for="username">password <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="password">
+                                    <p class="form__text">* Required fields</p>
+                                    <div id="lower">
+                                        <input  type="submit" value="log in">
+                                        <a href="#">Forgot password?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <hr class="acc__hr">
+    
+                    <div class="acc__item">
+                        <div class="acc__label">02. billing information</div>
+                        <div class="acc__content">
+                            <div class="acc__content__leftpart">
+                                <h4 class="acc__header">check as a guest a register</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+                                <div class="radio__btn">
+                                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                                    <label class="input-label" for="contactChoice1">Checkout as guest</label>
+                                    <br>
+                                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                                    <label class="input-label" for="contactChoice2">Register</label>
+                                </div>
+                                <h4 class="acc__header">register and save time!</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+    
+                                <p class="acc__text">>>Fast and easy checkout</p>
+                                <p class="acc__text">>>Easy access to your order history and status</p>
+    
+                                <div class="acc__btn-wrapper">
+                                    <a href="#" class="acc__btn">continue</a>
+                                </div>
+                            </div>
+    
+                            <div class="acc__content__rightpart">
+                                <h4 class="acc__header">already registered?</h4>
+                                <p class="acc__text">Please log in below</p>
+    
+                                <form class="acc-form">
+                                    <label class="form-label" for="name">email adress <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="name">
+                                    <br>
+                                    <label class="form-label" for="username">password <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="password">
+                                    <p class="form__text">* Required fields</p>
+                                    <div id="lower">
+                                        <input  type="submit" value="log in">
+                                        <a href="#">Forgot password?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <hr class="acc__hr">
+    
+                    <div class="acc__item">
+                        <div class="acc__label">03. shipping information</div>
+                        <div class="acc__content">
+                            <div class="acc__content__leftpart">
+                                <h4 class="acc__header">check as a guest a register</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+                                <div class="radio__btn">
+                                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                                    <label class="input-label" for="contactChoice1">Checkout as guest</label>
+                                    <br>
+                                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                                    <label class="input-label" for="contactChoice2">Register</label>
+                                </div>
+                                <h4 class="acc__header">register and save time!</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+    
+                                <p class="acc__text">>>Fast and easy checkout</p>
+                                <p class="acc__text">>>Easy access to your order history and status</p>
+    
+                                <div class="acc__btn-wrapper">
+                                    <a href="#" class="acc__btn">continue</a>
+                                </div>
+                            </div>
+    
+                            <div class="acc__content__rightpart">
+                                <h4 class="acc__header">already registered?</h4>
+                                <p class="acc__text">Please log in below</p>
+    
+                                <form class="acc-form">
+                                    <label class="form-label" for="name">email adress <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="name">
+                                    <br>
+                                    <label class="form-label" for="username">password <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="password">
+                                    <p class="form__text">* Required fields</p>
+                                    <div id="lower">
+                                        <input  type="submit" value="log in">
+                                        <a href="#">Forgot password?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <hr class="acc__hr">
+    
+                    <div class="acc__item">
+                        <div class="acc__label">04. shipping method</div>
+                        <div class="acc__content">
+                            <div class="acc__content__leftpart">
+                                <h4 class="acc__header">check as a guest a register</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+                                <div class="radio__btn">
+                                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                                    <label class="input-label" for="contactChoice1">Checkout as guest</label>
+                                    <br>
+                                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                                    <label class="input-label" for="contactChoice2">Register</label>
+                                </div>
+                                <h4 class="acc__header">register and save time!</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+    
+                                <p class="acc__text">>>Fast and easy checkout</p>
+                                <p class="acc__text">>>Easy access to your order history and status</p>
+    
+                                <div class="acc__btn-wrapper">
+                                    <a href="#" class="acc__btn">continue</a>
+                                </div>
+                            </div>
+    
+                            <div class="acc__content__rightpart">
+                                <h4 class="acc__header">already registered?</h4>
+                                <p class="acc__text">Please log in below</p>
+    
+                                <form class="acc-form">
+                                    <label class="form-label" for="name">email adress <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="name">
+                                    <br>
+                                    <label class="form-label" for="username">password <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="password">
+                                    <p class="form__text">* Required fields</p>
+                                    <div id="lower">
+                                        <input  type="submit" value="log in">
+                                        <a href="#">Forgot password?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <hr class="acc__hr">
+                    
+                    <div class="acc__item">
+                        <div class="acc__label">5. payment method</div>
+                        <div class="acc__content">
+                            <div class="acc__content__leftpart">
+                                <h4 class="acc__header">check as a guest a register</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+                                <div class="radio__btn">
+                                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                                    <label class="input-label" for="contactChoice1">Checkout as guest</label>
+                                    <br>
+                                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                                    <label class="input-label" for="contactChoice2">Register</label>
+                                </div>
+                                <h4 class="acc__header">register and save time!</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+    
+                                <p class="acc__text">>>Fast and easy checkout</p>
+                                <p class="acc__text">>>Easy access to your order history and status</p>
+    
+                                <div class="acc__btn-wrapper">
+                                    <a href="#" class="acc__btn">continue</a>
+                                </div>
+                            </div>
+    
+                            <div class="acc__content__rightpart">
+                                <h4 class="acc__header">already registered?</h4>
+                                <p class="acc__text">Please log in below</p>
+    
+                                <form class="acc-form">
+                                    <label class="form-label" for="name">email adress <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="name">
+                                    <br>
+                                    <label class="form-label" for="username">password <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="password">
+                                    <p class="form__text">* Required fields</p>
+                                    <div id="lower">
+                                        <input  type="submit" value="log in">
+                                        <a href="#">Forgot password?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <hr class="acc__hr">
+                    
+                    <div class="acc__item">
+                        <div class="acc__label">6. order review </div>
+                        <div class="acc__content">
+                            <div class="acc__content__leftpart">
+                                <h4 class="acc__header">check as a guest a register</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+                                <div class="radio__btn">
+                                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                                    <label class="input-label" for="contactChoice1">Checkout as guest</label>
+                                    <br>
+                                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                                    <label class="input-label" for="contactChoice2">Register</label>
+                                </div>
+                                <h4 class="acc__header">register and save time!</h4>
+                                <p class="acc__text">Register with us for future convenience</p>
+    
+                                <p class="acc__text">>>Fast and easy checkout</p>
+                                <p class="acc__text">>>Easy access to your order history and status</p>
+    
+                                <div class="acc__btn-wrapper">
+                                    <a href="#" class="acc__btn">continue</a>
+                                </div>
+                            </div>
+    
+                            <div class="acc__content__rightpart">
+                                <h4 class="acc__header">already registered?</h4>
+                                <p class="acc__text">Please log in below</p>
+    
+                                <form class="acc-form">
+                                    <label class="form-label" for="name">email adress <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="name">
+                                    <br>
+                                    <label class="form-label" for="username">password <span class="acc-form-span">*</span></label>
+                                    <br>
+                                    <input class="acc-form-input" type="password">
+                                    <p class="form__text">* Required fields</p>
+                                    <div id="lower">
+                                        <input  type="submit" value="log in">
+                                        <a href="#">Forgot password?</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="acc__hr">
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-section">
+            <div class="container">
+               <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="item">
+                            <div class="sl-item"  id="sl1">
+                                <img class="sl__img" src="./img/subscribe/head-1.png" alt="slider">
+                                <div class="sl__text">
+                                    <q class="sl__quote">Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium</q>
+                                    <h6 class="sl__name"><span>Bin Burhan</span> <br> Dhaka, Bd</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="sl-item" id="sl2">
+                                <img class="sl__img" src="./img/subscribe/head-1.png" alt="slider">
+                                <div class="sl__text">
+                                    <q class="sl__quote">Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium</q>
+                                    <h6 class="sl__name"><span>Bin Burhan</span> <br> Dhaka, Bd</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="sl-item" id="sl3">
+                                <img class="sl__img" src="./img/subscribe/head-1.png" alt="slider">
+                                <div class="sl__text">
+                                    <q class="sl__quote">Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium</q>
+                                    <h6 class="sl__name"><span>Bin Burhan</span> <br> Dhaka, Bd</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                        <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                        <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                        <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+                    </div>
+                </div>
+                <div class="container-feedback">
+                    <div class="subscribe-section-info">
+                        <h2 class="section-info__title">Subscribe</h2>
+                        <div class="section-info__description">
+                            <h4> FOR OUR NEW LETTER AND PROMOTION</h4>
+                        </div>
+                    </div>
+                    <div class="subscribe-form">
+                        <input placeholder="Enter Your Email" type="text" class="subscribe-form__input">
+                        <button class="subscribe-form__submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info-section">
+            <div class="container">
+                <div class="info-section__wrapper">
+                    <div class="brand-info__row">
+                        <div class="info-section__logo">
+                            <a href=""><img src="./img/header/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="info-section-text">
+                            <p>Objectively transition extensive data rather than cross functional solutions.
+                                Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. 
+                            </p>
+                            <p>Objectively transition extensive data rather than cross functional solutions.
+                                Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand-info__column">
+                        <ul>
+                            <a href="#"><li class="info__column__header">Company</li></a>
+                            <a href=""><li class="info__column__text"></li>Home</a>
+                            <a href=""><li class="info__column__text"></li>Shop</a>
+                            <a href=""><li class="info__column__text"></li>About</a>
+                            <a href=""><li class="info__column__text"></li>How it works</a>
+                            <a href=""><li class="info__column__text"></li>Contact</a>
+                            
+                        </ul>
+                        <ul>
+                            <a href="#"><li class="info__column__header">Information</li></a>
+                            <a href=""><li class="info__column__text"></li>Home</a>
+                            <a href=""><li class="info__column__text"></li>Shop</a>
+                            <a href=""><li class="info__column__text"></li>About</a>
+                            <a href=""><li class="info__column__text"></li>How it works</a>
+                            <a href=""><li class="info__column__text"></li>Contact</a>
+                        </ul>
+                        <ul>
+                            <a href="#"><li class="info__column__header">Shop category</li></a>
+                            <a href=""><li class="info__column__text"></li>Home</a>
+                            <a href=""><li class="info__column__text"></li>Shop</a>
+                            <a href=""><li class="info__column__text"></li>About</a>
+                            <a href=""><li class="info__column__text"></li>How it works</a>
+                            <a href=""><li class="info__column__text"></li>Contact</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__copyright">
+                    <p>© 2017  Brand  All Rights Reserved.</p>
+                </div>
+
+                <div class="footer__socials">
+                    <div class="links-wrapper">
+                        <a href="#fb" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#tw" class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#in" class="in"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#pin" class="pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                        <a href="#g+" class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/accordeon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
