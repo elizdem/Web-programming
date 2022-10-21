@@ -1,0 +1,202 @@
+.header__chekout-page{
+  height: 150px;
+  background-color: #f8f3f4;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 100px;
+}
+.header__text{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  
+  color: #0b3c0b;
+}
+ul.breadcrumb {
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+
+/* Добавить символ косой черты (/) перед/за каждым элементом списка */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+li.chk__active{
+  color: #F16D7F;
+}
+
+/* Добавить цвет для всех ссылок внутри списка */
+ul.breadcrumb li a {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+  color: #636363;
+}
+
+/* Добавить цвет на наведении курсора мыши */
+ul.breadcrumb li a:hover {
+  color: #F16D7F;
+}
+
+
+.accordion{
+  min-height: 520px;
+  margin: 80px 0;
+  background-color: #ffffff;
+}
+.acc__item {
+  position: relative;
+  margin: 10px 10px;
+  background-color: #ffffff;
+}
+.acc__label {
+  position: relative;
+  padding: 10px 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #222222;
+  cursor: pointer;
+}
+.acc__content {
+  position: relative;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 920px;
+  overflow: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+.acc__hr {
+  margin-left: 0;
+  border: 0;
+  height: 1px;
+  background-color: #E8E8E8;;
+}
+.accordion .acc__item.active .acc__content {
+  height: 450px;
+}
+.accordion .acc__item.active .acc__label::before {
+  font-size: 30px;
+}
+
+.acc__content__leftpart{
+  width: 550px
+}
+.acc__header{
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+}
+.acc__text{
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #B3B2B2;
+}
+.input-label{
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #222222;
+}
+.acc__btn-wrapper{
+  margin-top: 40px;
+}
+.acc__btn{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #4A4A4A;
+  text-decoration: none;
+
+  padding: 19px 54px;
+
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+
+}
+
+.acc-form-input{
+  width: 395px;
+  height: 46px;
+  border: 1px solid #EAEAEA;
+}
+.form-label{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  color: #222222;
+}
+.acc-form-span{
+  color: #FF0D0D;
+  font-weight: 600;
+}
+.form__text{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FF0D0D;
+}
+#lower{
+  margin-top: 32px;
+}
+#lower input{
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4A4A4A;
+  padding: 19px 55px;
+  margin-right: 35px;
+
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+}
+#lower a{  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  text-decoration: none;
+}
