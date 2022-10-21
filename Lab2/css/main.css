@@ -117,7 +117,7 @@ select option{
 /*      HEADER      */
 
 .header__index-page{
-    background-image: url(/img/header_background.png);
+    background-image: url(../img/header_background.png);
     height: 620px;
     margin-bottom: 80px;
 }
@@ -339,7 +339,7 @@ select option{
 .left-block{
     width: 765px;
     height: 530px;
-    background-image: url(/img/featured/featured_pic.png);
+    background-image: url(../img/featured/featured_pic.png);
 }
 .feature-section-header{
     height: 86px;
@@ -393,7 +393,7 @@ select option{
 
 .subscribe-section{
     height: 445px;
-    background-image: url(/img/subscribe/bg-sub.png);
+    background-image: url(../img/subscribe/bg-sub.png);
     margin-bottom: 100px;
 }
 .subscribe-section .container{
