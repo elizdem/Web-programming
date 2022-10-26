@@ -1,0 +1,210 @@
+.container {
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 255, 0.248);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox {
+    width: 200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox #check {
+    display: none;
+}
+
+.checkbox label {
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.checkbox > input:checked + label {
+    background: #98f3ff;
+    transition: background 1s;
+}
+.checkbox > input:not(:checked) + label {
+    background: #252828;
+    transition: background 1s;
+}
+.checkbox > input:checked + label .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 6px orange solid;
+    background-color: #ffff99;
+    box-sizing: border-box;
+
+    position: absolute;
+    right: 20px;
+    transition: right 1s;
+}
+.checkbox > input:checked + label .cloud {
+    width: 30px;
+    height: 15px;
+    border-radius: 20px;
+    border: 2px #c8c8c8 solid;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+    position: absolute;
+    right: 73px;
+    bottom: 27px;
+
+    display: flex;
+    justify-content: space-between;
+
+    opacity: 1;
+    transition: right 1.5s, opacity 2.5s;
+}
+.checkbox > input:not(:checked) + label .cloud {
+    opacity: 0;
+    right: 150px;
+    transition: right 1.5s, opacity 2.5s;
+}
+.checkbox > input:checked + label .cloud > div {
+    width: 8px;
+    height: 7px;
+    border-radius: 50%;
+    border: 2px #c8c8c8 solid;
+    border-bottom: none;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+    position: relative;
+    top: -5px;
+
+}
+
+
+.checkbox > input:checked + label .cloud > div:nth-of-type(1) {
+    top: -3px;
+}
+
+.checkbox > input:checked + label .cloud > div:nth-of-type(2) {
+    top: -7px;
+    width: 26px;
+    height: 10px;
+    left: -1px;
+}
+
+.checkbox > input:checked + label .cloud > div:nth-of-type(3) {
+    top: -4px;
+    width: 11px;
+    height: 5px;
+    left: -1px;
+}
+
+
+.checkbox > input:not(:checked) + label .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 6px #cacdb1 solid;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+
+    position: absolute;
+    right: 115px;
+    transition: right 1s;
+}
+
+.checkbox > input:not(:checked) + label .dots {
+    opacity: 1;
+    transition: left 1.5s, opacity 2.5s;
+}
+.checkbox > input:checked + label .dots {
+    opacity: 0;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+.checkbox > input:not(:checked) + label .dots > div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 3px #cccdc3 solid;
+    border-bottom: none;
+    background-color: #f4f4ef;
+    box-sizing: border-box;
+    top: -5px;
+    
+    position: relative;
+}
+.checkbox > input:not(:checked) + label .dots > div:nth-of-type(1) {
+    top: -3px;
+    left: 120px;
+    height: 7px;
+    width: 7px;
+}
+.checkbox > input:not(:checked) + label .dots > div:nth-of-type(2) {
+    width: 10px;
+    height: 10px;
+    top: 30px;
+    left: 140px;
+}
+.checkbox > input:not(:checked) + label .dots > div:nth-of-type(3){
+    left: 150px;
+    width: 8px;
+    height: 8px;
+}
+.checkbox > input:not(:checked) + label .dots > div:nth-of-type(4) {
+    width: 10px;
+    height: 10px;
+    left: 105px;
+}
+.checkbox > input:not(:checked) + label .dots > div:nth-of-type(5){
+    left: 170px;
+}
+.checkbox > input:not(:checked) + label .dots > div:nth-of-type(6){
+    left: 143px;
+    top: -56px;
+}
+
+.checkbox > input:not(:checked) + label .moondots {
+    opacity: 2.5;
+    transition: left 1.5s, opacity 5s;
+}
+.checkbox > input:checked + label .moondots {
+    opacity: 0;
+    transition: left 1.5s, opacity 0.5s;
+}
+
+.checkbox > input:not(:checked) + label .moondots > div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border-bottom: none;
+    background-color: #cacdb1;
+    box-sizing: border-box;
+    top: -5px;
+    
+    position: relative;
+}
+.checkbox > input:not(:checked) + label .moondots > div:nth-of-type(1) {
+    top: -3px;
+    left: 38px;
+    height: 7px;
+    width: 7px;
+}
+.checkbox > input:not(:checked) + label .moondots > div:nth-of-type(2) {
+    width: 16px;
+    height: 16px;
+    top: 14px;
+    left: 30px;
+}
+.checkbox > input:not(:checked) + label .moondots > div:nth-of-type(3){
+    left: 65px;
+    width: 10px;
+    height: 10px;
+}
