@@ -1,0 +1,52 @@
+{
+  "name": "Shine btight like a Diamond",
+  "short_name": "SB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8480ae",
+  "theme_color": "#8480ae",
+  "categories": ["mobile", "multipurpose", "blog", "ecommerce", "pwa"],
+  "orientation": "portrait",
+  "description": "Shine bright like a Diamond",
+  "icons": [{
+      "src": "img/icons/icon_72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "img/icons/icon_96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/icons/icon_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "img/icons/icon_144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/icons/icon_152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "img/icons/icon_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icons/icon_284.png",
+      "type": "image/png",
+      "sizes": "284x284"
+    },
+    {
+      "src": "img/icons/icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
